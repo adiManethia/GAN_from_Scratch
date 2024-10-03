@@ -1,5 +1,6 @@
 # GAN_from_Scratch
 **Generative Adversarial Network** for MNIST Dataset `(digit generation)` using TensorFlow
+![GAN-Flow](gan_flow.png)
 
 
 ## Table of Contents
