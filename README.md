@@ -77,7 +77,7 @@ The images are normalized to the range `[-1,1]`, for better performance with the
 ## Training
 ### Training Process
 The GAN is trained for a fixed number of epochs. In each epoch:
-* Generator: It produce fake images from random noise vectors.
+* Generator: It produces fake images from random noise vectors.
 * Discriminator: it attemps to classify real images (from MNISt datset) and fake images (from the Generator)
 * Loss Function:
    * Generator loss: Measures how well the Generator can fool the Discriminator.
@@ -102,13 +102,16 @@ After training for several epochs (100 in this case), the Generator is able to p
 </p>
    
 ## Operation
-1. Train the GAN
-2. Generate Images
+1. Train the GAN:
+   
+3. Generate Images:
+   
    Here, we will load the trained model from checkpoints and generate new handwritten digits.
    ```python
    generate_images(generator_trained)
    ```
-3. Create a GIF
+5. Create a GIF:
+   
    We can create a GIF of the generated images over time. Here is an example -
    ![GAN_MNIST](gan.gif)
    
