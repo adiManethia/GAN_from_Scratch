@@ -111,7 +111,6 @@ After training for several epochs (100 in this case), the Generator is able to p
    generate_images(generator_trained)
    ```
 5. Create a GIF:
-   
    We can create a GIF of the generated images over time. Here is an example -
    ![GAN_MNIST](gan.gif)
    
